@@ -1,0 +1,26 @@
+body{
+	font-family: 'Raleway', sans-serif;
+}
+header{
+	text-align: center;
+	font-size: 1.2em;
+	background-color: #D9D5D5;
+}
+.areatexto{
+	width: 100%;
+}
+.tachar{
+	text-decoration: line-through;
+}
+.lista{
+	background-color: #D9D5D5;
+    padding: 0.5%;
+    margin-top: 0.5%;
+}
+.trash{
+	float: right;
+}
+#caja{
+	overflow-y: auto;
+	height: 150px;
+}
