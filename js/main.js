@@ -18,7 +18,7 @@ window.addEventListener("load", function(){
 		valor = areaTexto.value;
 		var cajaLista = document.createElement("div");
 		var checkBox = document.createElement("input");
-		cajaLista.classList.add("lista");
+		cajaLista.classList.add("lista", "bg-primary");
 		checkBox.setAttribute("type","checkbox");
 		cajaLista.innerHTML = valor;
 		cajaLista.insertBefore(checkBox, cajaLista.childNodes[0]);

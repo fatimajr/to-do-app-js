@@ -1,26 +1,29 @@
-body{
-	font-family: 'Raleway', sans-serif;
-}
-header{
+div.page-header{
 	text-align: center;
-	font-size: 1.2em;
-	background-color: #D9D5D5;
+	color: orange;
 }
+
 .areatexto{
 	width: 100%;
+	margin-bottom: 2%;
 }
+
 .tachar{
 	text-decoration: line-through;
 }
+
 .lista{
-	background-color: #D9D5D5;
-    padding: 0.5%;
-    margin-top: 0.5%;
+    padding: 1%;
+    margin-top: 2%;
+    border-radius: 4px;
 }
+
 .trash{
 	float: right;
 }
-#caja{
+
+.caja{
 	overflow-y: auto;
-	height: 150px;
+	height: 200px;
+	margin-top: 2%;
 }
