@@ -1,29 +1,25 @@
-div.page-header{
-	text-align: center;
-	color: orange;
-}
-
-.areatexto{
-	width: 100%;
-	margin-bottom: 2%;
+.none{
+	display: none;
 }
 
 .tachar{
 	text-decoration: line-through;
 }
 
-.lista{
-    padding: 1%;
-    margin-top: 2%;
-    border-radius: 4px;
+.navbar-default .navbar-brand {
+    color: #1ABC9C ;
 }
 
-.trash{
-	float: right;
+.btn-primary{
+	background-color: #1ABC9C;
+	border-color:#1ABC9C;
 }
 
-.caja{
-	overflow-y: auto;
-	height: 200px;
-	margin-top: 2%;
+.btn-primary[disabled]:hover{
+	background-color: #1ABC9C;
+	border-color:#1ABC9C;
+}	
+
+label{
+	 color: #F39C12;
 }
